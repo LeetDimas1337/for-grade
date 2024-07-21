@@ -1,0 +1,91 @@
+@use 'shared/styles/consts';
+@use 'shared/styles/mixins';
+
+
+$search-border: 1px solid consts.$base-grey-1;
+
+.baseInfo {
+  border-bottom: $search-border;
+}
+
+.searchContainer {
+  display: flex;
+  width: 100%;
+
+  &__menuButton {
+
+    display: flex;
+    align-items: center;
+    padding: 15px 26px 15px 0;
+    gap: 15px;
+    @include mixins.primary-text(14px, 700);
+  }
+
+  &__search {
+    height: 100%;
+    font-size: 14px;
+    width: 736px;
+    display: flex;
+    align-items: center;
+    padding: 15px 0 15px 25px;
+    gap: 10px;
+    border-left: $search-border;
+
+    & input {
+      width: 100%;
+    }
+  }
+
+  &__subscribe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & img {
+      box-sizing: content-box;
+      align-self: end;
+      border: 3px solid consts.$base-grey-1;
+      border-bottom: 0;
+      width: 60.07px;
+      height: 41px;
+      flex-shrink: 0;
+    }
+
+    &TextBlock {
+
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+
+      &_primary {
+        @include mixins.primary-text(12px, 700, 15px);
+        white-space: nowrap;
+      }
+
+      &_secondary {
+        white-space: nowrap;
+        @include mixins.primary-text(12px, 400, 15px, consts.$base-grey-2);
+      }
+
+    }
+
+  }
+
+
+  &__signIn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    @include mixins.primary-text(14px, 400, 20px, consts.$base-grey-3);
+
+    &Container {
+      padding-left: 56px;
+      display: flex;
+      align-items: center;
+    }
+
+
+  }
+
+
+}

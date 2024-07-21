@@ -1,0 +1,21 @@
+@use 'shared/styles/mixins';
+
+.button {
+  padding: 10px 25px 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+
+  &__text {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    gap: 5px;
+    @include mixins.primary-text(14px, 700, 20px, white);
+  }
+
+  &__count {
+    @include mixins.primary-text(14px, 400, 20px, white);
+  }
+}
