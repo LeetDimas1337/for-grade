@@ -72,7 +72,7 @@ const ArticleHead = (): JSX.Element => {
 						style={{
 							border: '1px solid rgba(255,255,255,0.4)',
 						}}
-						icon={<Share/>}
+						leftIcon={<Share/>}
 					>
 
 						142 shares

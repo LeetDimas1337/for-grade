@@ -16,21 +16,21 @@ const ArticleFooter = (): JSX.Element => {
 			<address>
 				<Button
 					count={<span style={{ color: '#FFC4C9' }}>42</span>}
-					icon={<Heart style={{ color: 'white' }}/>}
+					leftIcon={<Heart style={{ color: 'white' }}/>}
 					style={{ backgroundColor: '#FF4F52' }}
 				>
 					Like it
 				</Button>
 				<Button
 					count={<span style={{ color: '#BBC6FF' }}>42</span>}
-					icon={<Facebook style={{ color: 'white' }}/>}
+					leftIcon={<Facebook style={{ color: 'white' }}/>}
 					style={{ backgroundColor: '#4267B2' }}
 				>
 					Share
 				</Button>
 				<Button
 					count={<span style={{ color: '#C5E4FC' }}>42</span>}
-					icon={<Twitter style={{ color: 'white' }}/>}
+					leftIcon={<Twitter style={{ color: 'white' }}/>}
 					style={{ backgroundColor: '#1DA1F2' }}
 				>
 					Tweet

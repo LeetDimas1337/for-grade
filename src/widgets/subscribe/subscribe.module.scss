@@ -1,0 +1,36 @@
+@use 'shared/styles/mixins';
+@use 'shared/styles/consts';
+
+.subscribeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 245px;
+
+  & h2 {
+    @include mixins.primary-text(40px, 700, 50px, consts.$dark-text-color, "Roboto Slab");
+    margin-bottom: 25px;
+  }
+
+  & form {
+    display: flex;
+    gap: 10px;
+
+    & input {
+      width: 313px;
+      border-radius: 5px;
+      border: 1px solid consts.$base-grey-1;
+      background: white;
+      padding: 10px 0 10px 15px;
+      @include mixins.primary-text(14px,400, 20px, consts.$dark-text-color, "Lato");
+
+      &::placeholder {
+        color: consts.$base-grey-2
+      }
+
+    }
+
+  }
+
+}

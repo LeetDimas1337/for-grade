@@ -1,0 +1,30 @@
+@use 'shared/styles/mixins';
+@use 'shared/styles/consts';
+
+
+.linkMenuContainer {
+  border-top: 5px solid;
+  padding-top: 35px;
+  width: 195px;
+
+  &:last-of-type {
+    width: 165px;
+  }
+
+}
+
+.header {
+  @include mixins.primary-text(14px, 700, 20px);
+  margin-bottom: 25px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  & a {
+    @include mixins.primary-text(14px, 400, 20px, consts.$base-grey-3);
+  }
+
+}

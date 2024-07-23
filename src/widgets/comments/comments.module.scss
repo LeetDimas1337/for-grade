@@ -1,0 +1,21 @@
+@use 'shared/styles/mixins';
+@use 'shared/styles/consts';
+.commentsContainer {
+  margin-left: 210px;
+  margin-top: 90px;
+  width: 750px;
+}
+
+.loadMoreButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 17px;
+  padding-bottom: 18px;
+  gap: 7px;
+  @include mixins.primary-text(14px, 700, 15px);
+  border-radius: 25px;
+  border: 1px solid consts.$base-grey-1;
+  margin-top: 30px;
+}
