@@ -8,7 +8,7 @@
 
 .tag {
   border-radius: 5px;
-  padding: 5px 15px;
+  padding: 4px 14px;
   border: 1px solid consts.$base-grey-1;
   @include mixins.primary-text(14px, 700, 20px, consts.$dark-text-color);
 }

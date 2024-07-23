@@ -21,14 +21,14 @@ const SearchContainer = (): JSX.Element => {
 				<button className={classes.searchContainer__subscribe}>
 					<img src="public/subscribe.png" alt="Уменьшенное изображение сайта"/>
 					<div className={classes.searchContainer__subscribeTextBlock}>
-						<div className={classes.searchContainer__subscribeTextBlock_primary}>Subscribe now</div>
+						<div className={classes.searchContainer__subscribeTextBlock_primary}>Subscribe Now</div>
 						<div className={classes.searchContainer__subscribeTextBlock_secondary}>3 month for $19</div>
 					</div>
 				</button>
 				<div className={classes.searchContainer__signInContainer}>
 					<button className={classes.searchContainer__signIn}>
 						<Man/>
-						Sign in
+						Sign In
 					</button>
 				</div>
 

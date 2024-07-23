@@ -2,7 +2,7 @@
 @use 'shared/styles/consts';
 
 .articleContent {
-  margin-top: 67px;
+  margin-top: 60px;
 
   &__text {
     margin-left: consts.$content-left-margin;
@@ -20,6 +20,7 @@
     margin-left: consts.$content-left-margin;
     width: 623px;
     display: flex;
+    gap: 10px;
     @include mixins.primary-text(18px, 400, 30px, consts.$base-grey-3);
   }
 
@@ -46,6 +47,6 @@
 .hr {
   width: 653px;
   margin-left: consts.$content-left-margin;
-  border: 1px solid consts.$base-grey-1;
+  border-top: 1px solid consts.$base-grey-1;
   margin-bottom: 30px;
 }

@@ -16,6 +16,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-bottom: 10px;
 }
 
 .avatar {
@@ -30,6 +31,7 @@
 }
 
 .date {
+  margin-bottom: -3px;
   @include mixins.primary-text(12px, 400, 15px, consts.$base-grey-2);
 }
 

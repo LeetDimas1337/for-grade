@@ -11,7 +11,9 @@ const App = (): JSX.Element => {
         <>
 	        <Header/>
 	        <main>
-		        <Article/>
+		        <div style={{marginBottom: '60px'}}>
+			        <Article/>
+		        </div>
 		        <RelatedArticles/>
 		        <Comments/>
 		        <Subscribe/>

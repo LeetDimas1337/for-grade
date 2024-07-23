@@ -14,7 +14,7 @@ const Footer = (): JSX.Element => {
 				<div className={classes.bottomText}>
 					<div>
 						Universal’s business concept is to offer fashion and quality at the best price in a sustainable
-						way. Universal has since <br/> it was founded in 2015 grown into one of the world's leading fashion
+						way. Universal has since it was <br/> founded in 2015 grown into one of the world's leading fashion
 						companies.
 					</div>
 					<div>

@@ -16,7 +16,7 @@ const ArticleFooter = (): JSX.Element => {
 			<address>
 				<Button
 					count={<span style={{ color: '#FFC4C9' }}>42</span>}
-					leftIcon={<Heart style={{ color: 'white' }}/>}
+					leftIcon={<Heart style={{ color: 'white', width: '20px', height: '20px'}}/>}
 					style={{ backgroundColor: '#FF4F52' }}
 				>
 					Like it

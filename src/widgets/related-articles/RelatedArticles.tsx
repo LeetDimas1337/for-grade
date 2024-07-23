@@ -10,14 +10,14 @@ const RelatedArticles = (): JSX.Element => {
 				alt={''}
 				comments={'82'}
 				views={'1,904'}
-				imgSrc={'public/article1.png'}
+				imgSrc={'public/article2.png'}
 			/>
 			<ArticleCard
-				title={'At the Mouth of the Mississippi, a Weird and Fragile Beauty'}
+				title={<>At the Mouth of the Mississippi,<br/>a Weird and Fragile Beauty</>}
 				alt={''}
 				comments={'145'}
 				views={'2,873'}
-				imgSrc={'public/article2.png'}
+				imgSrc={'public/article4.png'}
 			/>
 			<ArticleCard
 				title={'Chattanooga Is Changing. But Its Charms Remain.'}
@@ -31,7 +31,7 @@ const RelatedArticles = (): JSX.Element => {
 				alt={''}
 				comments={'52'}
 				views={'1,904'}
-				imgSrc={'public/article4.png'}
+				imgSrc={'public/article1.png'}
 			/>
 		</section>
 	);

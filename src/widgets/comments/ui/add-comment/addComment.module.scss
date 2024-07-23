@@ -13,6 +13,7 @@
 }
 
 .header {
+  margin-left: 96px;
   @include mixins.primary-text(20px, 700, 25px, consts.$dark-text-color, 'Roboto Slab');
 }
 
@@ -42,6 +43,7 @@
 
 .textAreaContainer {
   position: relative;
+  display: flex;
 }
 
 

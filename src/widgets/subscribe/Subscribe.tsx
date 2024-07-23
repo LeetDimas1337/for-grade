@@ -11,7 +11,7 @@ const Subscribe = (): JSX.Element => {
 			<form>
 				<input type="text" placeholder={'Enter your email'}/>
 				<Button
-					style={{ backgroundColor: '#4592FF' }}
+					style={{ backgroundColor: '#4592FF', padding: '10px 28px 10px 29px', height: '40px' }}
 				>
 					Subscribe
 				</Button>

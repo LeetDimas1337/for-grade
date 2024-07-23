@@ -41,14 +41,15 @@ const Contacts = (): JSX.Element => {
 			<div className={classes.contactUsLinks}>
 				<Symbol/>
 				{contactUsLinks.map((link) =>
-					<a href="">
+					<a key={link} href="">
 						{link}
 					</a>
 				)}
 			</div>
 			<div className={classes.socials}>
-				{socials.map(({icon, style}) =>
+				{socials.map(({ icon, style }, index) =>
 					<RoundLink
+						key={index}
 						icon={icon}
 						style={style}
 					/>

@@ -17,9 +17,11 @@
 
   display: flex;
   justify-content: space-between;
-  margin-bottom: 52px;
+  align-items: center;
+  margin-bottom: 50px;
 
   &__categoryLink {
+    display: flex;
     @include mixins.primary-text(12px, 700, 15px, consts.$blue-1);
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -45,8 +47,8 @@
 
   &__bookmark {
     position: absolute;
-    left: -67px;
-    top: -6px;
+    left: -97px;
+    top: -7.6px;
   }
 
 }

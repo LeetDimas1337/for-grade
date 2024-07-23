@@ -17,10 +17,8 @@ const Carousel = (): JSX.Element => {
 					<img src="public/forest.jpg" alt="Картинка с лесом" className={classes.picture}/>
 					<figcaption className={classes.caption}>
 						<div className={classes.caption__text}>
-							<span>
 									Geostatistics deal with quantitative data analysis, specifically the application of
 							statistical methodology
-							</span>
 						</div>
 						<div className={classes.caption__userInfo}>
 							<img src="public/avatar2.png" alt="Челикс" className={classes.caption__avatar}/>

@@ -11,9 +11,9 @@ const ArticleContent = (): JSX.Element => {
 			<div>
 				<p className={classes.articleContent__capitalText}>
 					<span className={classes.firstLetter}>M</span>
-					any geographers are trained in toponymy and cartology, this is not their main preoccupation.
+					any geographers are trained in toponymy and cartology, this <br/> is not their main preoccupation.
 					Geographers
-					study the space and the temporal database distribution of phenomena,
+					study the space <br/> and the temporal database distribution of phenomena,
 				</p>
 				<p className={classes.articleContent__text}>
 					processes, and features as well as the interaction of humans and their environment. Because space
@@ -28,13 +28,13 @@ const ArticleContent = (): JSX.Element => {
 			<h2 className={classes.subheader}>Integrated Geography</h2>
 			<p className={classes.articleContent__text}>
 				Geography as a discipline can be split broadly into two main subsidiary fields: human geography and
-				physical geography. The former largely focuses on the built environment and how humans create, view,
+				physical geography. The former largely focuses <br/> on the built environment and how humans create, view,
 				manage, and influence space. The latter examines the natural environment, and how organisms, climate,
 				soil, water, and landforms produce and interact.
 			</p>
 			<p className={classes.articleContent__text}>
 				The difference between these approaches led to a third field, environmental geography, which combines
-				physical and human geography and concerns the interactions between the environment and humans.
+				physical and human geography and concerns <br/> the interactions between the environment and humans.
 			</p>
 			<p className={classes.articleContent__text}>
 				The accompanying text mentions seven outer regions beyond the encircling ocean. The descriptions of five
@@ -42,7 +42,7 @@ const ArticleContent = (): JSX.Element => {
 				the 9th century BC depicted Babylon as being further north from the center of the world, though it is
 				not certain what that center was supposed to represent.
 			</p>
-			<div style={{ paddingTop: '15px', marginBottom: '45px' }}>
+			<div style={{ paddingTop: '30px', marginBottom: '45px' }}>
 				<Carousel/>
 			</div>
 			<div className={classes.withAside}>
@@ -87,7 +87,9 @@ const ArticleContent = (): JSX.Element => {
 				</div>
 				<MaterialOnTheme/>
 			</div>
-			<Quote/>
+			<div style={{marginTop: '35px'}}>
+				<Quote/>
+			</div>
 			<p className={classes.articleContent__text}>
 				The Greeks, who were the first to explore geography as both art and science, achieved this through
 				Cartography, Philosophy, and Literature, or through Mathematics. There is some debate about who was the
@@ -101,7 +103,7 @@ const ArticleContent = (): JSX.Element => {
 				The first rigorous system of latitude and longitude lines is credited <br/> to Hipparchus. He employed a
 				sexagesimal system that was derived from Babylonian mathematics.
 			</p>
-			<div style={{marginLeft: '210px', marginBottom: '60px'}}>
+			<div style={{marginLeft: '210px', marginBottom: '58px'}}>
 				<Tags/>
 			</div>
 			<hr className={classes.hr}/>

@@ -1,7 +1,9 @@
 @use 'shared/styles/mixins';
 
 .button {
-  padding: 10px 25px 10px 20px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  padding: 9px 24px 9px 19px;
   display: flex;
   align-items: center;
   gap: 10px;

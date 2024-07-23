@@ -43,7 +43,7 @@ const ArticleHead = (): JSX.Element => {
 					<button className={classes.heading__bookmark}>
 						<Bookmark/>
 					</button>
-					Five Travel Stories From 2017 to Help You Escape Into the World
+					Five Travel Stories From 2017 to Help You Escape <br/> Into the World
 				</h1>
 				<div className={classes.subheader}>
 					From the coastlines of Europe to remote Kodiak Island, Alaska, here are five of our favorite stories
@@ -78,7 +78,7 @@ const ArticleHead = (): JSX.Element => {
 						142 shares
 					</Button>
 				</div>
-				<div style={{ position: 'absolute', right: 0, bottom: -325 }}>
+				<div style={{ position: 'absolute', right: 1, bottom: -330 }}>
 					<AccountInfo/>
 				</div>
 			</div>

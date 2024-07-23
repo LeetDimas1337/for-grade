@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import Eye from 'shared/svg/Eye.svg?react';
 import Comment from 'shared/svg/Comment.svg?react';
 import classes from './articleCard.module.scss';
@@ -6,7 +6,7 @@ import classes from './articleCard.module.scss';
 type ArticleCardProps = {
 	imgSrc: string
 	alt: string
-	title: string
+	title: ReactNode
 	views: string
 	comments: string
 }

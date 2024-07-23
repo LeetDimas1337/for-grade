@@ -20,13 +20,11 @@ const AddComment = (): JSX.Element => {
 						<textarea id={textAreaId}/>
 					</div>
 					<div>
-						<Button
-							style={{ backgroundColor: '#4592FF' }}
-							rightIcon={
-								<Arrow style={{ transform: 'rotateZ(180deg)' }}/>
-							}
-						>
-							Submit
+						<Button style={{ backgroundColor: '#4592FF' }}>
+							<div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+								<span style={{marginLeft: '5px'}}>Submit</span>
+								<Arrow style={{ transform: 'rotateZ(180deg)', marginBottom: '-4px', marginRight: '-5px' }}/>
+							</div>
 						</Button>
 					</div>
 				</form>
