@@ -1,9 +1,0 @@
-@use 'shared/styles/mixins';
-@use 'shared/styles/consts';
-
-.divider {
-  width: 100%;
-  border-top: 1px solid consts.$base-grey-1;
-  margin-top: 29px;
-  margin-bottom: 20px;
-}

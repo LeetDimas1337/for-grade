@@ -1,8 +1,0 @@
-@use 'shared/styles/mixins';
-
-.button {
-  @include mixins.primary-text(14px, 700, 20px, white);
-  display: flex;
-  gap: 5px;
-  align-items: center;
-}
