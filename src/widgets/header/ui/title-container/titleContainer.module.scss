@@ -1,0 +1,30 @@
+@use 'shared/styles/consts';
+@use 'shared/styles/mixins';
+
+.title {
+  display: flex;
+  align-items: center;
+
+  &__image {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 30px;
+    @include mixins.primary-text(14px, 400, 20px, consts.$base-grey-3);
+    margin-right: 130px;
+  }
+
+  &__date {
+    @include mixins.primary-text(14px, 400, 20px, consts.$base-grey-3);
+    margin-left: 186px;
+    margin-right: 23px;
+    width: 195px;
+  }
+
+  &__weather {
+    display: flex;
+    gap: 10px;
+    @include mixins.primary-text(14px, 400, 20px, consts.$base-grey-3);
+  }
+
+}

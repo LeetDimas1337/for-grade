@@ -1,0 +1,21 @@
+@use 'shared/styles/mixins';
+@use 'shared/styles/consts';
+
+.footer {
+
+  margin-left: consts.$content-left-margin;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  &__heading {
+    @include mixins.primary-text(25px, 700, 30px, consts.$dark-text-color, ("Roboto Slab", sans-serif));
+  }
+
+  & address {
+    display: flex;
+    gap: 10px;
+  }
+
+}
