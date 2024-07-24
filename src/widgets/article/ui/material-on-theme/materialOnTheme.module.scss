@@ -1,0 +1,43 @@
+@use 'shared/styles/mixins';
+@use 'shared/styles/consts';
+
+.container {
+  margin-top: 135px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 263px;
+}
+
+.title {
+  @include mixins.primary-text(20px, 700, 25px, consts.$dark-text-color, ("Roboto Slab", sans-serif));
+}
+
+.picture {
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.articleName {
+  @include mixins.primary-text(16px, 700, 25px, consts.$dark-text-color, ("Roboto Slab", sans-serif));
+  margin-bottom: 5px;
+}
+
+.shortDescription {
+  @include mixins.primary-text(14px, 400, 20px, consts.$base-grey-3);
+}
+
+.footer {
+  display: flex;
+  gap: 10px;
+
+  &__iconWithText {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    @include mixins.primary-text(12px, 400, 15px, consts.$base-grey-2);
+  }
+
+}

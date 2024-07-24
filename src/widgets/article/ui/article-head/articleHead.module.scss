@@ -1,0 +1,85 @@
+@use 'shared/styles/mixins';
+@use 'shared/styles/consts';
+
+.articleHead {
+  background: linear-gradient(0deg, rgba(64, 48, 61, 0.35) 0%, rgba(64, 48, 61, 0.35) 100%), url("public/biker.png") lightgray 50% / cover no-repeat;
+  height: 590px;
+  padding: 60px consts.$content-left-margin;
+  position: relative;
+
+  &__relativeWrapper {
+    position: relative;
+  }
+
+}
+
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+
+  &__categoryLink {
+    display: flex;
+    @include mixins.primary-text(12px, 700, 15px, consts.$blue-1);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  &__navButtons {
+    display: flex;
+    gap: 31px;
+  }
+
+  &__arrows {
+    display: flex;
+    gap: 20px;
+  }
+
+}
+
+.heading {
+  width: 750px;
+  @include mixins.primary-text(55px, 700, 70px, white, ("Roboto Slab", sans-serif));
+  margin-bottom: 30px;
+  position: relative;
+
+  &__bookmark {
+    position: absolute;
+    left: -97px;
+    top: -7.6px;
+  }
+
+}
+
+.subheader {
+  @include mixins.primary-text(18px, 400, 30px, white);
+  width: 556px;
+  opacity: 0.85;
+  margin-bottom: 60px;
+}
+
+.footer {
+
+  display: flex;
+  gap: 30px;
+  align-items: center;
+
+  &__smallInfo {
+    display: flex;
+    gap: 20px;
+  }
+
+  &_iconWithText {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    opacity: 0.85;
+    @include mixins.primary-text(12px, 400, 15px, white);
+  }
+
+  &__time {
+
+  }
+}
